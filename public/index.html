@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+      h1 {
+        position: absolute;
+        top: 120px;
+        left: 180px;
+      }
+      h3 {
+        color: black;
+        text-align: center;
+      }
+	      p{
+        color: white;
+        text-align: center;
+      }
+      .food_image {
+        width: 50%;
+        height: 50%;
+      }
+
+      img {
+        height: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      span {
+        padding-left: 60px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <div>
+        <div style="background-color: white" class="food_image">
+          <img
+            id="titleImage"
+            src=https://images.immediate.co.uk/production/volatile/sites/30/2022/08/Corndogs-7832ef6.jpg?quality=90&resize=556,505
+            alt="pic3"
+          />
+          <h1 id="titleName">SOME OF MY FAV <br> FOODS</h1>
+        </div>
+        <div style="background-color: #FDDA0D" class="food_image">
+          <h3 id="favFood1">PIZZA</h3>
+          <p id="foodDescription1"> <b> Pizza comes in a very big variety of tastes depending on ingredients,making,the size and textures,etc.,.On their own they taste pretty good. </b> </p>
+          <img id="favFoodImage1"
+            src=https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&w=1000&q=80
+          />
+        </div>
+        <div style="background-color: purple" class="food_image">
+          <h3 id="favFood2">FRIED CHICKEN</h3>
+          <p id="foodDescription2"><b> Each country has its unique seasoning and preferred cut of chicken,but the base flavour is still the same.</b></p>
+          <img id="favFoodImage2"
+            src="https://static.toiimg.com/thumb/54651882.cms?width=1200&height=900"
+            alt="pic1"
+          />
+        </div>
+        <div style="background-color: red" class="food_image">
+          <h3 id="favFood3">SALAD</h3>
+          <p id="foodDescription3"><b>Your body can get the much-needed fibre with salads. Fibre's job is to reduce cholesterol and digestion. It also makes you feel full and prevents you from overeating</br></p>
+          <img id="favFoodImage3"
+            src="https://www.foodiesfeed.com/wp-content/uploads/2021/05/coffee-love-tornado.jpg"
+            alt="pic4"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("images");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
+</html>
